@@ -15,9 +15,9 @@ After installing R (your "engine"), we need to install RStudio (your "interface"
 
 If you don't have time for this, don't worry too much.
 We will still go through all the basics with you at the beginning of the Workshop, with some time dedicated almost exclusively to making you comfortable with these new tools.
-However, it can be quite overwhelming to "get into" it, all of a sudden, within one morning, so we recommend that you try and install them earlier on, and maybe explore them a little.
+However, it can be quite overwhelming to "get into" it, all of a sudden, within one day, so we recommend that - if you have time - you try and install them earlier on, and maybe explore and play a little around them.
 
-To make the impact a little smoother, we suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this online beginners' tutorial](https://education.rstudio.com/learn/beginner/), or [this one (also for beginners)](https://moderndive.netlify.app/1-getting-started.html), or [this (pdf)](00_Resources_and_readings/resources/R_RStudio_Basics.pdf).
+To make the impact a little smoother, we also suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this online beginners' tutorial](https://education.rstudio.com/learn/beginner/), or [this one (also for beginners)](https://moderndive.netlify.app/1-getting-started.html), or [this (pdf)](00_Resources_and_readings/resources/R_RStudio_Basics.pdf).
 
 You will find more links in the [resources](00_Resources_and_readings/resources.md) section.
 
