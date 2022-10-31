@@ -39,17 +39,22 @@ my_list <- list(my_first_vector, my_second_vector)
 my_list
 
 # dataframes
-my_df <- data.frame(author = c("Shakespeare", "Dante", "Cervantes", "Pynchon"), nationality = c("English", "Italian", "Spanish", "American"))
+my_df <- data.frame(
+  author = c("Shakespeare", "Dante", "Cervantes", "Pynchon"), 
+  nationality = c("English", "Italian", "Spanish", "American")
+  )
 View(my_df)
 
 ### Your Turn (1) - start
 
-# create a new dataframe with other authors
+# create a new dataframe with other authors substituting the XXXX
+# AFTER you enter your values, press ctrl*ENTER (mac: command+enter) to execute
 # you can complete the code here below:
-my_new_df <- data.frame(author = c(), nationality = c())
-View(my_new_df)
 
-### Your Turn (1) - end
+my_new_df <- data.frame(
+  author = c(XXXXXX), 
+  nationality = c(XXXXX))
+View(my_new_df)
 
 
 ### 2. Accessing variables

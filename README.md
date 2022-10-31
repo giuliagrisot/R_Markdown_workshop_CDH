@@ -3,7 +3,7 @@
 
 This is the repository containing all you will need to complete the workshop **Introduction to R Studio and R Markdown**, which will take place in the **IT Training Room, Cambridge University Library** on teh 21st of November 2022 between 13:00 and 17:00.
 
-Here you can find [resources](resources.md) that will allow you to make the most of our summer school, which include links to some useful tutorials and a few recommended readings, which might give you an idea of what R and R Studio are and why they could be useful to you.
+Here you can find [resources](00_Resources_and_readings/resources.html) that will allow you to make the most of our summer school, which include links to some useful tutorials and a few recommended readings, which might give you an idea of what R and R Studio are and why they could be useful to you.
 
 ## Get ready
 
@@ -15,11 +15,11 @@ After installing R (your "engine"), we need to install RStudio (your "interface"
 If you don't have time for this, don't worry too much. We will still go through all the basics with you at the beginning of the Workshop, with some time dedicated almost exclusively to making you comfortable with these new tools.
 However, it can be quite overwhelming to "get into" it, all of a sudden, within one morning, so we recommend that you try and install them earlier on, and maybe explore them a little.
 
-To make the impact a little smoother, we suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this (pdf)](resources/R_RStudio_Basics.pdf), or [this (online)](https://moderndive.netlify.app/1-getting-started.html).
-You will find more links in the [resources](resources.md) section.
+To make the impact a little smoother, we suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this (pdf)](00_Resources_and_readings/resources/R_RStudio_Basics.pdf), or [this (online)](https://moderndive.netlify.app/1-getting-started.html).
+You will find more links in the [resources](00_Resources_and_readings/resources.html) section.
 
 ## Help us give you the best experience
 
-The Summer School will help you discover the potential of DH tools and approaches, showing you how a corpus of texts can be used to obtain new insights and perspectives on aspects of literature that are otherwise difficult to identify and examine, with a particular focus on the analysis of literary affect and space.
+The Workshop will help you discover the potential of R Markdown, showing you how this tool can be used to create wonderful reports, to make sure you succeed in producing reproducible research, and, last but not least, to allow you to spare a lot of time and energy!
 
-**Please remember to fill the [participants' survey](https://forms.gle/hNS1e9JupoZkgmyu7) by June 1st**, which will allow us to customise the summer school based on the participants' experiences and interests.
+**Please remember to fill the [participants' survey](https://forms.gle/RzxQi1LqKRnACQJo6) by November 15th**, which will allow us to customise the summer school based on the participants' experiences and interests.
