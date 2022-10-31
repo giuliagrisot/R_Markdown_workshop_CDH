@@ -4,15 +4,17 @@
 ### Github cloning link: https://github.com/giuliagrisot/R_Markdown_workshop_CDH.git
 
 ### Tutorials
-- [R Intro pdf tutorial](resources/R_RStudio_Basics.pdf)
+- [R Intro beginners tutorial](https://education.rstudio.com/learn/beginner/)
 - [R Intro online tutorial](https://moderndive.netlify.app/1-getting-started.html)
+- [R Intro pdf tutorial](resources/R_RStudio_Basics.pdf)
 
 ### Recommended extra tools
 - [R Markdown](https://bookdown.org/yihui/rmarkdown/)
 
 
 
-## If you are intersted in text minining:
+## EXTRA: If you are intersted in text minining:
+
 - [Text Mining with R](https://www.tidytextmining.com/)
 - [Quanteda Package](https://tutorials.quanteda.io/)
 
