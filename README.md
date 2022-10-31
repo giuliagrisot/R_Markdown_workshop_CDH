@@ -3,7 +3,7 @@
 
 This is the repository containing all you will need to complete the workshop **Introduction to R Studio and R Markdown**, which will take place in the **IT Training Room, Cambridge University Library** on teh 21st of November 2022 between 13:00 and 17:00.
 
-Here you can find [resources](00_Resources_and_readings/resources.html) that will allow you to make the most of our summer school, which include links to some useful tutorials and a few recommended readings, which might give you an idea of what R and R Studio are and why they could be useful to you.
+Here you can find [resources](00_Resources_and_readings/resources.md) that will allow you to make the most of our summer school, which include links to some useful tutorials and a few recommended readings, which might give you an idea of what R and R Studio are and why they could be useful to you.
 
 ## Get ready
 
@@ -17,7 +17,7 @@ However, it can be quite overwhelming to "get into" it, all of a sudden, within 
 
 To make the impact a little smoother, we suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this online beginners' tutorial](https://education.rstudio.com/learn/beginner/), or [this one (also for beginners)](https://moderndive.netlify.app/1-getting-started.html), or [this (pdf)](00_Resources_and_readings/resources/R_RStudio_Basics.pdf).
 
-You will find more links in the [resources](00_Resources_and_readings/resources.html) section.
+You will find more links in the [resources](00_Resources_and_readings/resources.md) section.
 
 ## Help us give you the best experience
 
