@@ -19,7 +19,7 @@ It is especially indicated if you are dealing with *datasets* or *plots*, but yo
 
 While these word processors generally have a 'friendlier' interface -- and in certain ways more flexibility -- they also often force you to waste quite a lot of time on the format adjustments, changing numbers and information manually as your project evolves.
 With R Markdown, once you decide *how* you want to organise your paper/document, you just have to define a few 'rules', and simply write in plain text.
-The output will come out perfectly formatted, and you won't need to think about margins or page layout, font sizes, interspaces, focusing instead purely on *what* you are writing.
+The output will come out perfectly formatted, and you won't need to think about margins or page layout, font sizes or interline spacing, focusing instead purely on *what* you are writing.
 
 With R Markdown, using only R code, you can create several kinds of documents, including HTML and PDFs, but also Word Documents, and even presentations.
 

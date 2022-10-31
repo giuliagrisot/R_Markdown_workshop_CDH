@@ -1,9 +1,13 @@
+---
+layout: default
+title: home
+---
 
 ## Welcome!
 
-This is the repository containing all you will need to complete the workshop **Introduction to R Studio and R Markdown**, which will take place in the **IT Training Room, Cambridge University Library** on teh 21st of November 2022 between 13:00 and 17:00.
+This is  of the 2022 *Summer School: Raum und Affekt*, which will take place in the **"Hermann-Escher-Saal" of the Zürich Central Library** (Zentralbibliothek Zürich, Zähringerplatz 6, 8001 Zürich).
 
-Here you can find [resources](resources.md) that will allow you to make the most of our summer school, and information on the [corpus](corpus.md) we will use in the several exercises and practice sessions that will be the core of the workshop.
+Here you can find [resources](resources.md) that will allow you to make the most of our summer school, as well as the [program](summer_school_program.md), and information on the [corpus](corpus.md) we will use in the several exercises and practice sessions that will be the core of the summer school.
 You will also find some recommended readings, which might give you an idea of what Digital Literary Studies are about.
 
 Please also visit [the dedicated page on the Zürich Zentralbibliothek website](
