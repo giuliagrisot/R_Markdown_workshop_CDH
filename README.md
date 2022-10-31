@@ -7,12 +7,14 @@ Here you can find [resources](00_Resources_and_readings/resources.md) that will 
 
 ## Get ready
 
-**If you are completely new to R and R Studio** -- for instance if you are asking yourself, *" R what..?!?"* -- we think **it might be very useful for you to start familiarising with these tools** and their interfaces, as you will be using them during most of the Summer School.
-If you do not have R and R Studio already on your computer, we recommend that you install the latest versions. You install R like any other program from [this link (Windows)](https://cran.r-project.org/bin/windows/base/) and [this for Mac](https://cran.r-project.org/bin/macosx/). 
+**If you are completely new to R and R Studio** - for instance if you are asking yourself, *" R what..?!?"* - we think **it might be very useful for you to start familiarising with these tools** and their interfaces.
+If you do not have R and R Studio already on your computer, we recommend that you install the latest versions of these two software, which are **free** for everyone.
+You can install R like any other program from [this link (Windows users)](https://cran.r-project.org/bin/windows/base/) or [this (for Mac users)](https://cran.r-project.org/bin/macosx/). 
 
 After installing R (your "engine"), we need to install RStudio (your "interface"). You can do that from [here](https://www.rstudio.com/products/rstudio/download/). Install the *Free* version.
 
-If you don't have time for this, don't worry too much. We will still go through all the basics with you at the beginning of the Workshop, with some time dedicated almost exclusively to making you comfortable with these new tools.
+If you don't have time for this, don't worry too much.
+We will still go through all the basics with you at the beginning of the Workshop, with some time dedicated almost exclusively to making you comfortable with these new tools.
 However, it can be quite overwhelming to "get into" it, all of a sudden, within one morning, so we recommend that you try and install them earlier on, and maybe explore them a little.
 
 To make the impact a little smoother, we suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this online beginners' tutorial](https://education.rstudio.com/learn/beginner/), or [this one (also for beginners)](https://moderndive.netlify.app/1-getting-started.html), or [this (pdf)](00_Resources_and_readings/resources/R_RStudio_Basics.pdf).
