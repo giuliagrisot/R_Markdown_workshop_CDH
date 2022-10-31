@@ -6,7 +6,7 @@
 ### Tutorials
 - [R Intro beginners tutorial](https://education.rstudio.com/learn/beginner/)
 - [R Intro online tutorial](https://moderndive.netlify.app/1-getting-started.html)
-- [R Intro pdf tutorial](resources/R_RStudio_Basics.pdf)
+- [R Intro pdf tutorial](00_Resources_and_readings/resources/R_RStudio_Basics.pdf)
 
 ### Recommended extra tools and packages
 - [Tidyverse](https://www.tidyverse.org)
