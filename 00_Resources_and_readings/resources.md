@@ -11,7 +11,7 @@ After installing R (your "engine"), **you will need to install RStudio**
 - You can do that from [here](https://www.rstudio.com/products/rstudio/download/). Install the *Free* version.
 
 ### Tutorials
-- [R and RStudio Intro: pdf tutorial](R_RStudio_Basics.pdf),
+- [R and RStudio Intro: pdf tutorial](R_RStudio_Basics.pdf)
 - [R Studio Intro: beginners tutorial](https://education.rstudio.com/learn/beginner/)
 - [R Markdown Intro](https://intro2r.com/why-use-r-markdown.html)
 
