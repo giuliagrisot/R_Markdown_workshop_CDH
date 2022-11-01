@@ -17,7 +17,7 @@ If you don't have time for this, don't worry too much.
 We will still go through all the basics with you at the beginning of the Workshop, with some time dedicated almost exclusively to making you comfortable with these new tools.
 However, it can be quite overwhelming to "get into" it, all of a sudden, within one day, so we recommend that - if you have time - you try and install them earlier on, and maybe explore and play a little around them.
 
-To make the impact a little smoother, we also suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this online beginners' tutorial](https://education.rstudio.com/learn/beginner/), or [this one (also for beginners)](https://moderndive.netlify.app/1-getting-started.html).
+To make the impact a little smoother, we also suggest that you go have a look at some of the many existing tutorials offering an introduction to R and R Studio, such as [this pdf tutorial]("00_Resources_and_readings/R_RStudio_Basics.pdf") [this online beginners' tutorial](https://education.rstudio.com/learn/beginner/), or [this one (also for beginners)](https://moderndive.netlify.app/1-getting-started.html).
 
 You will find more links in the [resources](00_Resources_and_readings/resources.md) section.
 
