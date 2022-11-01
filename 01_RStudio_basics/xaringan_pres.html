@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>Introduction to the R Studio Interface</title>
+    <meta charset="utf-8" />
+    <meta name="author" content="Giulia Grisot gg524@cam.ac.uk" />
+    <meta name="date" content="2022-11-21" />
+    <script src="xaringan_pres_files/header-attrs/header-attrs.js"></script>
+    <link href="xaringan_pres_files/remark-css/default.css" rel="stylesheet" />
+    <link href="xaringan_pres_files/remark-css/metropolis.css" rel="stylesheet" />
+    <link href="xaringan_pres_files/remark-css/metropolis-fonts.css" rel="stylesheet" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+.title[
+# Introduction to the R Studio Interface
+]
+.author[
+### Giulia Grisot <a href="mailto:gg524@cam.ac.uk" class="email">gg524@cam.ac.uk</a>
+]
+.date[
+### 21 November 2022
+]
+
+---
+
+
+
+
+&lt;!-- ```{r xaringan-themer, include=FALSE, warning=FALSE} --&gt;
+&lt;!-- library(xaringanthemer) --&gt;
+&lt;!-- style_mono_light() --&gt;
+&lt;!-- # style_mono_accent( --&gt;
+&lt;!-- #   base_color = "#1c5253", --&gt;
+&lt;!-- #   header_font_google = google_font("Josefin Sans"), --&gt;
+&lt;!-- #   text_font_google   = google_font("Montserrat", "300", "300i"), --&gt;
+&lt;!-- #   code_font_google   = google_font("Fira Mono") --&gt;
+&lt;!-- # ) --&gt;
+&lt;!-- ``` --&gt;
+
+
+# Introduction
+
+RStudio allows the user to run R in a user-friendly environment.
+It is *open-source* (i.e. free) and used by millions of users, meaning that it is *always kept up to date* and improved with new functions, and that there is *plenty of online support available* for most of the issues you might encounter (see https://stackoverflow.com).
+
+There are also *numerous R related tutorials and/or resources* that you will be able to find online.
+
+---
+
+# RStudio interface
+
+The usual Rstudio screen has four windows:
+
+1.(top left)  Editor (your script/notes) and data view.
+
+2.(bottom left)  Console.
+
+3.(top right)  Workspace and history.
+
+4.(bottom right)  Files, plots, packages and help.
+
+![](./images/media/image15.jpg)
+
+---
+
+# R script
+
+The R script is where you keep a record of your work. For Stata users
+this would be like the do-file, for SPSS users is like the syntax and
+for SAS users the SAS program.
+
+![](./images/media/image15.jpg)
+
+---
+
+# R script
+
+To create a new R script you can either go to File -\&gt; New -\&gt; R Script,
+or click on the icon with the "+" sign and select "R Script", or simply
+press Ctrl+Shift+N. Make sure to save the script.
+
+
+.pull-left[ 
+
+![](./images/media/image16.jpg)
+
+![](./images/media/image17.jpg)
+]
+
+
+.pull-right[ 
+
+![](./images/media/image18.jpg)
+
+]
+
+---
+
+# Workspace tab
+
+The workspace tab stores any object, value, function or anything you
+create during your R session. In the example below, if you click on the
+dotted squares you can see the data on a screen to the left.
+
+![](./images/media/image6.jpg)
+
+---
+
+# History tab 
+
+The history tab keeps a record of all previous commands. It helps when
+testing and running processes. Here you can either **save** the whole
+list or you can **select** the commands you want and send them to an R
+script to keep track of your work.
+
+In this example, we select all and click on the "To Source" icon, a
+window on the left will open with the list of commands. Make sure to
+save the 'untitled1' file as an \*.R script.
+
+![](./images/media/image10.jpg)
+
+---
+
+# Changing the working directory 
+
+
+.pull-left[ 
+
+![](./images/media/image11.jpg)
+
+]
+
+.pull-right[
+
+![](./images/media/image12.jpg)
+]
+
+---
+
+# Setting a default working directory
+
+![](./images/media/image13.jpg)
+
+---
+
+# Packages tab 
+
+The package tab shows the list of add-ons included in the installation
+of RStudio. If checked, the package is loaded into R, if not, any
+command related to that package won't work, you will need select it. You
+can also install other add-ons by clicking on the 'Install Packages'
+icon. Another way to activate a package is by typing, for example,
+library(foreign). This will automatically check the \--foreign package
+(it helps bring data from proprietary formats like Stata, SAS or SPSS).
+
+![](./images/media/image19.jpg)
+![](./images/media/image20.jpg)
+
+---
+
+# Installing a package 
+
+![](./images/media/image21.jpg)
+![](./images/media/image22.jpg)
+
+![](./images/media/image23.jpg)
+
+---
+
+# Plots tab (1) 
+
+![](./images/media/image24.jpg)
+
+---
+
+# Plots tab (2) 
+
+![](./images/media/image25.jpg)
+
+---
+
+# Plots tab (3) -- Graphs export 
+
+![](./images/media/image26.jpg)
+
+To extract the graph, click on "Export"
+where you can save the file as an image (PNG, JPG, etc.) or as PDF,
+these options are useful when you only want to share the graph or use it
+in a LaTeX document. Probably, the easiest way to export a graph is by
+copying it to the clipboard and then paste it directly into your Word
+document.
+
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create();
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+// add `data-at-shortcutkeys` attribute to <body> to resolve conflicts with JAWS
+// screen reader (see PR #262)
+(function(d) {
+  let res = {};
+  d.querySelectorAll('.remark-help-content table tr').forEach(tr => {
+    const t = tr.querySelector('td:nth-child(2)').innerText;
+    tr.querySelectorAll('td:first-child .key').forEach(key => {
+      const k = key.innerText;
+      if (/^[a-z]$/.test(k)) res[k] = t;  // must be a single letter (key)
+    });
+  });
+  d.body.setAttribute('data-at-shortcutkeys', JSON.stringify(res));
+})(document);
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
