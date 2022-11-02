@@ -8,7 +8,7 @@ Here you can find [resources](00_Resources_and_readings/resources.md) that will 
 ## Get ready
 
 **If you are completely new to R and R Studio** - for instance if you are asking yourself, *" R what..?!?"* - we think **it might be very useful for you to start familiarising with these tools** and their interfaces.
-If you do not have R and R Studio already on your computer, we recommend that you install the latest versions of these two software, which are **free** for everyone.
+If you do not have R and R Studio already on your computer, we recommend that you install the latest versions of these two softwares, which are **free** for everyone.
 You can install R like any other program from [this link (Windows users)](https://cran.r-project.org/bin/windows/base/) or [this (for Mac users)](https://cran.r-project.org/bin/macosx/). 
 
 After installing R (your "engine"), we need to **install RStudio** (your "interface").
