@@ -26,4 +26,4 @@ You will find more links in the [resources](00_Resources_and_readings/resources.
 
 The Workshop will help you discover the potential of R Markdown, showing you how this tool can be used to create wonderful reports, to make sure you succeed in producing reproducible research, and, last but not least, to allow you to spare a lot of time and energy!
 
-**Please remember to fill the [participants' survey](https://forms.gle/RzxQi1LqKRnACQJo6) by November 15th**, which will allow us to customise the workshop based on the participants' experiences and interests.
+**Please remember to fill the [participants' survey]() by November 15th**, which will allow us to customise the workshop based on the participants' experiences and interests.
