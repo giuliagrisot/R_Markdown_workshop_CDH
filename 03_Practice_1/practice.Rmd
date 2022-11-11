@@ -349,6 +349,18 @@ Exercise:
 
 Uncomment the code, find the name of the dataframe we have created above to print the means for math and reading scores, and substitute that to "THE_DATA_YOU_WANT_TO_TRANSFORM" in the kable function. Also, insert the names for columns and give the table a caption.
 
+Write your comment beneath if you want!
+You can even insert footnotes: just add a square bracket "box", with a "^" symbol inside followd by the a label of your choice (it must be a unique label!). then, anywhere in the Markdown document, repeat the exact same box at the beginning of a new line, add a column after that, and write the content of the footnote.
+I know. it's  a lot, much easier dione than said though! here is what it looks like (commented)
+
+# ....this is my text.[^fn1] More text.....
+
+# [^fn1]: This is the content of my footnote
+
+
+
+
+
 Knit and see what happens.
 
 
@@ -471,8 +483,7 @@ Do the same with "pdf_document" and see what happens.
 Well done!
 That's it for the introductory course, I hope you learned something new.
 
-I hope you put down all the questions you have for me.
-Come back to the video call and let's talk about them.
+I hope you put down all the questions you have for me!
 
 
 
