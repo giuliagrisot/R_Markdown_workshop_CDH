@@ -14,6 +14,8 @@ After installing R (your "engine"), **you will need to install RStudio**
 - [R and RStudio Intro: pdf tutorial](R_RStudio_Basics.pdf)
 - [R Studio Intro: beginners tutorial](https://education.rstudio.com/learn/beginner/)
 - [R Markdown Intro](https://intro2r.com/why-use-r-markdown.html)
+- [R Markdown tips and tricks](https://www.dataquest.io/blog/r-markdown-tips-tricks-and-shortcuts/)
+- [R Markdown "Definitive Guide"](https://bookdown.org/yihui/rmarkdown/)
 
 ### Recommended extra tools and packages
 - [Tidyverse](https://www.tidyverse.org)
