@@ -102,7 +102,7 @@ head(pride)
 
 pride_whole <- paste(unlist(pride), collapse ="\n")
 
-head(as_tibble(pride_whole))
+head(substr(pride_whole, 1,100)) # the function substr() allows yiou to select a portion of a tring of characters.
 
 pride_whole_tibble <- as_tibble(pride_whole)
 
