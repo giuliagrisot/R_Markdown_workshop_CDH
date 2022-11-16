@@ -180,7 +180,8 @@ head(corpus, 5)
 # navigate into the samples folder and click on the file small_corpus.xlsx. or 
 # execute the following code
 
-pride_excel <- read_excel("samples/pride.xlsx")
+pride_excel <- read_excel("../R_Markdown_workshop_CDH/05_Working_with_texts/samples/pride.xlsx") %>%
+  unnest_sentences(input = text, output = sentence, to_lower = F)
 
 # have a look at it
 

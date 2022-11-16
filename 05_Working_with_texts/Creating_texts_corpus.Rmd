@@ -211,7 +211,8 @@ execute the following code
 
 ```{r}
 
-pride_excel <- read_excel("samples/pride.xlsx")
+pride_excel <- read_excel("samples/pride.xlsx") %>%
+  unnest_sentences(input = text, output = sentence)
 
 # have a look at it
 
