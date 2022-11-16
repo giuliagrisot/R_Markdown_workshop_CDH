@@ -37,23 +37,25 @@
 
 # Before you begin you will need to load some packages. These allow you to execute specific operations.
 # If you have not done so already, you have to install them first: it might take a few minutes and you only have to do it once. If R asks you whether you want to install dependencies for the packages, say yes.
+# 
+# install.packages("tidyverse")
+# install.packages("readr")
+# install.packages("data.table")
+# install.packages("tm")
+# install.packages("tidytext")
+# install.packages("syuzhet")
+# install.packages("sjPlot")
+# install.packages("wordcloud")
+# install.packages("readxl")
 
-install.packages("tidyverse")
-install.packages("readr")
-install.packages("data.table")
-install.packages("tm")
-install.packages("tidytext")
-install.packages("syuzhet")
-install.packages("sjPlot")
-install.packages("wordcloud")
-install.packages("readxl")
+# NB!!! Once you have installed the packeges, comment the installation code:
+# you can do this by selecting the relevant lines and clicking CRTL+SHIFT+C (Cmd+Shift+C on Mac)
 
-# Once you have installed the packeges you can comment the installation code like this:
+# the text should then become green, and this operation will not be 
+# executed again in the future, unless you uncomment the lines again.
 
-#   install.packages("blablabla")
-
-# so this operation will not be execute again in the future.
-
+# what you will need to do (every time you restart RStudio to work on a script)
+# is to load the packages you'll need.
 
 library(tidyverse)
 library(readxl)
@@ -77,7 +79,9 @@ library(wordcloud)
 
 # let's try it out. As you can see in the files panels, there is a folder called "samples", where some texts in different formats are stored.
 
-# before you execute the code, make sure the working directory is set to "R_Markdown_workshop_CDH"
+# before you execute the code, make sure the working directory is set to "04_Working_with_texts"
+
+setwd("04_Working_with_texts")
 
 
 pride <- read.delim("samples/austen_pride_1813.txt", # this is the url to your file
@@ -104,9 +108,9 @@ pride_whole_tibble <- as_tibble(pride_whole)
 
 # you can then split it into sentences, for instance with packages syuzhet (the result will be a list of strings)
 
-pride_sentences <- get_sentences(pride_whole)
+pride_sentences <- syuzhet::get_sentences(pride_whole)
 
-head(as_tibble(pride_sentences))
+head(pride_sentences, 1)
 
 # or with the package tidytext (this will turn into a dataframe)
 
@@ -217,3 +221,5 @@ kafka_werke %>%
   filter(nword!=0) %>%
   head()
 
+
+setwd("../../R_Markdown_workshop_CDH/")

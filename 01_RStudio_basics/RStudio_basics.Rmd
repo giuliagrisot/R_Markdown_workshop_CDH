@@ -2,7 +2,7 @@
 title: Introduction to R Studio
 author: Giulia Grisot <gg524@cam.ac.uk>
 date: "November 2022"
-output: html_notebook
+output: html_document
 ---
 
 # Introduction
@@ -18,17 +18,19 @@ There are also *numerous R related tutorials and/or resources* that you will be 
 
 The usual Rstudio screen has four windows:
 
-1.  Console.
+1.(top left)  Editor (your script/notes) and data view.
 
-2.  Workspace and history.
+2.(bottom left)  Console.
 
-3.  Files, plots, packages and help.
+3.(top right)  Workspace and history.
 
-4.  The R script(s) and data view.
+4.(bottom right)  Files, plots, packages and help.
 
 ![](./images/media/image15.jpg)
 
 ---
+
+# R script
 
 The R script is where you keep a record of your work. For Stata users
 this would be like the do-file, for SPSS users is like the syntax and
@@ -38,25 +40,21 @@ for SAS users the SAS program.
 
 ---
 
+# R script
+
 To create a new R script you can either go to File -\> New -\> R Script,
 or click on the icon with the "+" sign and select "R Script", or simply
 press Ctrl+Shift+N. Make sure to save the script.
 
 
-
-
 ![](./images/media/image16.jpg)
-
-![](./images/media/image17.jpg)
-
-![](./images/media/image18.jpg)
-
 
 ---
 
 
-![](./images/media/image5.jpg)
+![](./images/media/image17.jpg)
 
+![](./images/media/image18.jpg)
 
 ---
 
@@ -87,11 +85,9 @@ save the 'untitled1' file as an \*.R script.
 
 # Changing the working directory 
 
-
 ![](./images/media/image11.jpg)
 
 ![](./images/media/image12.jpg)
-
 
 ---
 
@@ -112,16 +108,12 @@ library(foreign). This will automatically check the \--foreign package
 (it helps bring data from proprietary formats like Stata, SAS or SPSS).
 
 ![](./images/media/image19.jpg)
-![](./images/media/image20.jpg)
 
 ---
 
 # Installing a package 
 
-![](./images/media/image21.jpg)
 ![](./images/media/image22.jpg)
-
-![](./images/media/image23.jpg)
 
 ---
 
@@ -135,7 +127,7 @@ library(foreign). This will automatically check the \--foreign package
 
 ![](./images/media/image25.jpg)
 
-
+---
 
 # Plots tab (3) -- Graphs export 
 
@@ -147,4 +139,3 @@ these options are useful when you only want to share the graph or use it
 in a LaTeX document. Probably, the easiest way to export a graph is by
 copying it to the clipboard and then paste it directly into your Word
 document.
-
