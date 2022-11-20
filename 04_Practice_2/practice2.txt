@@ -1,0 +1,32 @@
+Alright!
+
+If everything went well, you should have been able to create a html file with some images, some plots and some references to data, as well as the equiovalent simple version of a word and pdf document.
+
+One more useful tool you might want to be aware of, is that you can easily create presentations, too.
+
+Just as you would do when you start a new RMarkdown from scratch, click on the "New File" button (top left, it looks like a white little sheet with a green plus), and select RMarkdown.
+RStudio will suggest you several options: on the left, you can select "Presentation".
+Quite easy, right?
+
+Just choose one of between the potential slides options (any of them will work), and save the new file in the "04_Practice_2" folder.
+This will create a "all-in-one" template, which will show you pretty much all the layout possibilities for the different kinds of presentaitons you can create with basic RMarkdown, and that if course you can modify to your needs.
+
+Can you try and create a slide for each type of rmarkdown template?
+Which one do you prefer?
+
+
+
+
+if you managed, and if you play a little around these formats, you will soon think
+"yeah right, making presentations like this is easy, but they don't look very nice, do they."
+
+They are not too bad, and of course might be more than enough for many, but yes, one ca't say they are very pretty-looking, and you can't really change that much.
+
+Another possibility of course is to use one of the many packages that have been made exactly to fill this gap.
+I would recomment the package "xaringan": there is a slide intro here https://slides.yihui.org/xaringan/#1 and even a dedicated section in the Markdown definitive guide: https://bookdown.org/yihui/rmarkdown/xaringan.html
+
+So first you need to install this package
+
+remotes::install_github("yihui/xaringan")
+
+(if it does not work, you might need to install the package "remotes" first, try from the Package panel.)

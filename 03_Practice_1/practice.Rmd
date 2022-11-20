@@ -43,7 +43,7 @@ THE MAIN BODY: TEXT AND CODE
 Don't worry about the chunk of code below. It can define the knitting properties.
 Leave it as it is for now: we will not discuss it in depth. It is however important to understand that it defines the "rules" for your rmarkdown output.
 In the chunk content, `echo = FALSE` is an parameter of the knit function that tells your markdown document to avoid printing of the R code that generates outputs for all the chunks in your document. The `message = FALSE` prevents the printing of messages related to the chunks' content.
-Notice also that it says "include=FALSE" in the chunk description inside the { }, which means you will not see this specific chunk when you knit the file, even though it will be excecuted.
+Notice also that in the chunk description inside the { } it says "include=FALSE" , which means you will not see this specific chunk when you knit the file, even though it will be executed.
 
 You can try and change them later on and see what happens!
 -->
@@ -167,10 +167,32 @@ Try and play around with page alignment and sizes to see what you like best.
 
 <!--
 
+Another way to insert images is to use a the function "kable" of the knitr package: this is a very versatile and useful package that allows you to print better looking tables, but also to insert graphics.
+
+In this case, you can set up figure options in the chunk header. "fig_width" and "fig_height" can be used to control the default figure width and height (6.5x4.5 is used by default), "fig.align", its position, "fig.caption" the picture caption.
+Right now it is set up to align the picture centrally to the page, and to produce an image that is 4 wide. 
+
+Try and use knitr::include_graphics to insert another picture:
+
+Can you change both dimensions, add a caption and and make the picture aligned to the right?
+
+
+-->
+
+```{r, fig.align='center', fig.height=4}
+library(knitr)
+
+knitr::include_graphics("")
+
+```
+
+<!--
+
 THE CODE
 
 When creating your own reports, one of the first things you'll want to do is add some code!
 You can add a code chuck manually by typing three ` signs followed by the type of code chunk you want, {r}. If you do it manually, remember to close your code chunk, again with three `.
+
 Alternatively, on the top of this window, you should see a green button with a C and a little arrow. When you click on it, it will show you the different kind of code you can work with in your report. Select the code chunk you'd like and you're good to go. 
 
 In the presentation I mentioned the Student annual rerport dataset.
@@ -184,7 +206,8 @@ The chunk of code below is already set up for you. Take a look at it and follow 
 
 # At the beginning of a chunk, you will often see "library(xxxxxx)". It indicates that a package has been loaded. Different packages perform different operations. For example, the package "readr" allows R to read the CSV file into a dataframe.
 
-# We want to call this dataframe "students_performance". 
+# You can see in the Files panel that there is a csv file in our folder, you can open it in excel or here in RStudio to have a look at it if you want.
+# We want to import this file into R, and call this dataframe "students_performance". 
 
 # Exercise:
 
@@ -255,7 +278,7 @@ There should be a similar shortcut for Mac. You can find all the shortcuts in To
 
 
 <!-- Good work!
-Now go back to the video: we'll discuss problems and after a short break you'll see how to make tables and manage references.
+We'll discuss problems and after a short break you'll see how to make tables and manage references.
 -->
 
 
@@ -347,21 +370,11 @@ That will achieve the same result with the knitr function "kable"
 
 Exercise:
 
-Uncomment the code, find the name of the dataframe we have created above to print the means for math and reading scores, and substitute that to "THE_DATA_YOU_WANT_TO_TRANSFORM" in the kable function. Also, insert the names for columns and give the table a caption.
+Uncomment the code, find the name of the dataframe we have created above to print the means for "math" and "reading scores".
+Now use that name instead of "THE_DATA_YOU_WANT_TO_TRANSFORM" in the kable function.
+Also, choose new names for your columns and give the table a caption.
 
-Write your comment beneath if you want!
-You can even insert footnotes: just add a square bracket "box", with a "^" symbol inside followd by the a label of your choice (it must be a unique label!). then, anywhere in the Markdown document, repeat the exact same box at the beginning of a new line, add a column after that, and write the content of the footnote.
-I know. it's  a lot, much easier dione than said though! here is what it looks like (commented)
-
-# ....this is my text.[^fn1] More text.....
-
-# [^fn1]: This is the content of my footnote
-
-
-
-
-
-Knit and see what happens.
+Write some comment beneath it, knit and see what happens.
 
 
 -->
@@ -375,11 +388,18 @@ Knit and see what happens.
 
 ```
 
-
-
-
-
 <!--
+
+
+NOTE: When writing normal text, you can even insert footnotes: just add a square bracket "box", with a "^" symbol inside, followed by the a label of your choice (it must be a unique label!). Then, anywhere in the Markdown document, repeat the exact same box at the beginning of a new line, add a column after that, and write the content of the footnote.
+I know. it's  a lot, much easier done than said though! here is what it looks like (commented). You can uncomment these lines and see what happens if you want!
+--->
+
+<!-- # ....this is my text.[^fn1] More text..... -->
+
+<!-- # [^fn1]: This is the content of my footnote -->
+
+<!-- 
 
 USING REFERENCES
 
@@ -463,7 +483,7 @@ Well, it is really easy to make her happy.
 
 Exercise:
 
-Just try and add the "word_document" output above "html_document" (at the same indentation).
+Just try and add the "word_document" output above "html_document" (with the same indentation).
 Remember, if you want a table of content you can add a colon right after word_document, make a new line, indent one more level, and add toc:yes
 and the same goes for the section number, number_sections: false
 
