@@ -402,7 +402,7 @@ install.packages(&quot;syuzhet&quot;)
 install.packages(&quot;sjPlot&quot;)
 install.packages(&quot;wordcloud&quot;)
 install.packages(&quot;readxl&quot;)</code></pre>
-<p>NB!! You only need to intall packages ONCE. R stores that
+<p>NB!! You only need to install packages ONCE. R stores that
 information, and after the installation you only need to “load” them, to
 activate them when you are running code. If R asks you whether you want
 to install dependencies for the packages, say yes.</p>
@@ -416,7 +416,8 @@ library(data.table)
 library(tm)
 library(tidytext)
 library(sjPlot)
-library(wordcloud)</code></pre>
+library(wordcloud)
+library(knitr)</code></pre>
 </div>
 </div>
 <div id="importing-data" class="section level1">
@@ -493,8 +494,13 @@ head(substr(pride_whole, 1,100)) # the function substr() allows yiou to select a
 <p>you can then split it into sentences, for instance with packages
 syuzhet (the result will be a list of strings)</p>
 <pre class="r"><code>pride_sentences &lt;- syuzhet::get_sentences(pride_whole)
-head(pride_sentences, 1)</code></pre>
-<pre><code>## [1] &quot;IT IS A TRUTH universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.&quot;</code></pre>
+head(pride_sentences)</code></pre>
+<pre><code>## [1] &quot;IT IS A TRUTH universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.&quot;                                                                                                                                               
+## [2] &quot;However little known the feelings or views of such a man may be on his first entering a neighbourhood, this truth is so well fixed in the minds of the surrounding families, that he is considered as the rightful property of some one or other of their daughters.&quot;
+## [3] &quot;\&quot;My dear Mr. Bennet,\&quot; said his lady to him one day, \&quot;have you heard that Netherfield Park is let at last?\&quot;&quot;                                                                                                                                                      
+## [4] &quot;Mr. Bennet replied that he had not.&quot;                                                                                                                                                                                                                                 
+## [5] &quot;\&quot;But it is,\&quot; returned she; \&quot;for Mrs. Long has just been here, and she told me all about it.\&quot;&quot;                                                                                                                                                                    
+## [6] &quot;Mr. Bennet made no answer.&quot;</code></pre>
 <p>or with the package tidytext (this will turn into a dataframe)</p>
 <pre class="r"><code>pride_sentences &lt;- unnest_sentences(pride, 
                                     input = text,

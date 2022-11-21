@@ -3,7 +3,7 @@ title: Importing texts with R
 author: Giulia Grisot
 output:
   html_document:
-    df_print: kable
+    df_print: "kable"
 ---
 
 ```{r setup, include=FALSE}
@@ -50,7 +50,7 @@ Before you begin you will need to load some packages. These allow you to execute
   install.packages("wordcloud")
   install.packages("readxl")
   ```
-NB!! You only need to intall packages ONCE.
+NB!! You only need to install packages ONCE.
 R stores that information, and after the installation you only need to "load" them, to activate them when you are running code.
 If R asks you whether you want to install dependencies for the packages, say yes.
 
@@ -67,6 +67,7 @@ library(tm)
 library(tidytext)
 library(sjPlot)
 library(wordcloud)
+library(knitr)
 ```
 
 
@@ -98,7 +99,6 @@ execute the next code cunk or click on the "pride" element in your environment
 
 ```{r}
 head(pride)
-
 ```
 
 when importing a txt file, the paragraphs are automatically converted into new rows. if you want to have a single string instead, you can transform it, telling R to combine the rows, and to add "\n " (a conventional code for a new line) between one piece of string and the next, as follows:
@@ -122,6 +122,9 @@ you can then split it into sentences, for instance with packages syuzhet (the re
 ```{r}
 pride_sentences <- syuzhet::get_sentences(pride_whole)
 head(pride_sentences, 1)
+
+# note that this is not printed as a dataframe, because it is not one.
+# the syuzhet sentence splitted creates a list of character strings, not a df.
 
 ```
 
