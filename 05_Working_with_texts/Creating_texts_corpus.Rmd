@@ -31,7 +31,7 @@ If you are unfamiliar with R language and basic operations and want to learn mor
 
 Often, one of the factors that prevents us humanists from working with RStudio for analysing texts is that tutorials assume a certain amount of (magically) pre-existing knowledge. 
 Unfortunately, we often do not have that, nor a magic wand.
-So it happens that right when you want to finally try to use someone else's existing scripts and make them work with your lovely literary texts (yes, thas's how we often do, and it's ok!), you are not really sure how to put those books into a shape that you can use.
+So it happens that right when you want to finally try to use someone else's existing scripts and make them work with your lovely literary texts (yes, thats's how we often do, and it's ok!), you are not really sure how to put those books into a shape that you can use.
 
 Here we will try and show how different text formats can be imported in R and made ready for some analysis.
 
@@ -132,11 +132,17 @@ or with the package tidytext (this will turn into a dataframe)
 
 
 ```{r}
-pride_sentences <- unnest_sentences(pride, 
-                                    input = text,
+pride_sentences <- tidytext::unnest_sentences(pride_whole_tibble, 
+                                    input = value,
                                     output = "sentence_text",
                                     to_lower = F)
 head(pride_sentences)
+
+
+pride_tokens <- tidytext::unnest_tokens(pride_sentences,
+                                        input = sentence_text,
+                                        output = token)
+
 
 ```
 
@@ -228,6 +234,8 @@ head(pride_excel)
 the procedure similar to the one we saw for the txt files, except it has read_excel as function, and it does not need to add a header or other variables
 
 ```{r}
+library(readxl)
+
 corpus_files <- list.files(path = "samples", pattern = "*.xlsx",  full.names = T)
 
 

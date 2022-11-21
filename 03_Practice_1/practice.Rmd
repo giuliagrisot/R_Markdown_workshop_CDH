@@ -2,7 +2,8 @@
 title: test
 author: Giulia
 date: today
-output: 
+output:
+  # word_document: default
   html_document:
     fig_caption: yes
     force_captions: yes
@@ -22,7 +23,8 @@ link-citations: yes
 
 ## this is my subheader
 
-And this is my text with a reference here @Johnson-Laird1989
+And this is my text with a reference here @Johnson-Laird1989 or here [@Mellmann2017] another.
+
 
 
 <!--
@@ -234,9 +236,9 @@ The chunk of code below is already set up for you. Take a look at it and follow 
 # You can run the code chunk to see if it works and have a look at the output without knitting the whole document. Once you have added the dataframe name to the code, click on the little green arrow on the top right of the code block, try and see what happens. 
 
 
-# library(readr)
+library(readr)
 
-# XXXX <- read_csv("rmarkdown_intro_data/StudentsPerformance.csv")
+students_performance <- read_csv("StudentsPerformance.csv")
 
 
 ```
@@ -283,13 +285,15 @@ There should be a similar shortcut for Mac. You can find all the shortcuts in To
 
 
 ```{r plot 1, echo=FALSE}
-# 
-# library(tidyverse)
-# library(ggplot2)
-# 
-# students_performance %>%
-#   ggplot2::ggplot(aes(gender, math_score, fill=gender)) +
-#   geom_boxplot() 
+
+library(tidyverse)
+library(ggplot2)
+
+students_performance %>%
+  # now i make a plot
+  ggplot2::ggplot(aes(x = gender, y = math_score, fill = gender)) +
+  # i want a boxplot
+  geom_boxplot()
 
 ```
 
@@ -370,11 +374,16 @@ Create a table manually after the instructions and see if it matches.
 
 
 ```{r}
-# library(tidyverse)
-# 
-# students_perf_table <- students_performance %>%
-#   group_by(gender) %>%
-#   summarise(math_mean = mean(math_score), read_mean = mean(reading_score))
+library(tidyverse)
+
+students_perf_table <- students_performance %>%
+  
+  group_by(gender) %>%
+  
+  dplyr::summarise(math_mean = mean(math_score), 
+            read_mean = mean(reading_score))
+
+students_perf_table
 
 ```
 
