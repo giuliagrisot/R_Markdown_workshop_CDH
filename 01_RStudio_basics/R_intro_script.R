@@ -1,4 +1,4 @@
-### Welcome!
+### Welcome! --------
 
 # This is an R script file
 # Everything written after an hash symbol (#) is a comment
@@ -10,7 +10,7 @@
 
 # (the command will be automatically "copy/pasted" into the console and executed)
 
-### 1. Creating variables
+### 1. Creating variables -------
 
 # with R, you can create various kinds of "objects", that can then be manipualted and stored.
 # these objects must be named, and can be named however you fancy: be careful though, because object names CANNOT contain spaces.
@@ -22,7 +22,7 @@
 # several types of objects:
 
 # numbers
-my_number <- 1
+my_number <- "1"
 my_number # nb. executing an object alone will "print" it in the console
 
 # strings of text (note that strings must be enclosed in quotation marks)
@@ -54,6 +54,9 @@ my_df <- data.frame(
   author = c("Shakespeare", "Dante", "Cervantes", "Pynchon"), 
   nationality = c("English", "Italian", "Spanish", "American")
   )
+
+my_df
+
 View(my_df)
 
 ### Your Turn (1) - start
@@ -80,7 +83,7 @@ getwd() # getwd is the name of a function, and it tells you it just means "get w
 # if you want to change the wd, you can do so with the "setwd" function.
 # for example:
 
-setwd("corpus") # this will make the subfolder "corpus" (already in your project) your working directory
+setwd("05_Working_with_texts/corpus/") # this will make the subfolder "corpus" (already in your project) your working directory
 # have a look to check
 getwd()
 

@@ -1,9 +1,28 @@
+---
+title: test
+author: Giulia
+date: today
+output: 
+  html_document:
+    fig_caption: yes
+    force_captions: yes
+    highlight: pygments
+    number_sections: no
+    toc: yes
+    toc_float: yes
+    theme: readable
+csl: "apa.csl"
+bibliography: my_references.bib
+link-citations: yes
+---
 
 
 
+# This is a test header
 
+## this is my subheader
 
-
+And this is my text with a reference here @Johnson-Laird1989
 
 
 <!--
@@ -179,10 +198,10 @@ Can you change both dimensions, add a caption and and make the picture aligned t
 
 -->
 
-```{r, fig.align='center', fig.height=4}
+```{r, fig.align='center', fig.height=4, fig.cap="this is my caption"}
 library(knitr)
 
-knitr::include_graphics("")
+knitr::include_graphics("image_sample.jpeg")
 
 ```
 
@@ -506,8 +525,9 @@ That's it for the introductory course, I hope you learned something new.
 I hope you put down all the questions you have for me!
 
 
-
 -->
 
+
+# References
 
 
