@@ -31,4 +31,4 @@ The Workshop will help you discover the potential of R Markdown, showing you how
 
 ---
 
-If you participated in this workshop, please fill the workshop feedback survey [here](https://forms.gle/XiY3tEdJGSZRQfRC8), thanks!
+**If you participated in this workshop, please fill the workshop feedback survey [here](https://forms.gle/XiY3tEdJGSZRQfRC8), thanks!**
